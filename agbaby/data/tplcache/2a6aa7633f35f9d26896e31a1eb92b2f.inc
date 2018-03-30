@@ -1,0 +1,1 @@
+<a href="[field:typelink /]"><h4 class="news-program">[field:typename /]</h4></a>

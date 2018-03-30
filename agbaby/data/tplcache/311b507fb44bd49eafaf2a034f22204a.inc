@@ -1,0 +1,1 @@
+<img src="[field:banner/]" class="img-responsive center-block" alt="">

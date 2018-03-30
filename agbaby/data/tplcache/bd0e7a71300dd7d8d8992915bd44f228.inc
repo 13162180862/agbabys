@@ -1,0 +1,1 @@
+<img src="[field:litpic/]" class="img-responsive center-block" alt="" />

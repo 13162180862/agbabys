@@ -1,0 +1,1 @@
+<img src="[field:laotou/]" class="img-responsive center-block" alt="" />

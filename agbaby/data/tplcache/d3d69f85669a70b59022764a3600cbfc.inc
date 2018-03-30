@@ -1,0 +1,1 @@
+{dede:img text='' width='' height=''} uploadspicturebanner1stroller.jpg {/dede:img}

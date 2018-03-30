@@ -1,0 +1,1 @@
+<a href="[field:typelink /]"><h4 class="news-program">BLOG</h4></a>

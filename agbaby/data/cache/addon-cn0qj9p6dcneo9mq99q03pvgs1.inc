@@ -1,0 +1,19 @@
+<?php
+$myaddons = array();
+$maNum = 0;
+$myaddons[$maNum] = array('1597', '/uploads/allimg/170904/1-1FZ4160050302.png');
+$maNum = 1;
+$myaddons[$maNum] = array('1598', '/uploads/allimg/170904/1-1FZ41601095J.png');
+$maNum = 2;
+$myaddons[$maNum] = array('1599', '/uploads/allimg/170904/1-1FZ41601241K.png');
+$maNum = 3;
+$myaddons[$maNum] = array('1600', '/uploads/allimg/170904/1-1FZ4160134N6.png');
+$maNum = 4;
+$myaddons[$maNum] = array('1601', '/uploads/allimg/170904/1-1FZ4160144237.png');
+$maNum = 5;
+$myaddons[$maNum] = array('1602', '/uploads/allimg/170904/1-1FZ4160155523.png');
+$maNum = 6;
+$myaddons[$maNum] = array('1603', '/uploads/allimg/170904/1-1FZ416020S34.png');
+$maNum = 7;
+$myaddons[$maNum] = array('1604', '/uploads/allimg/170904/1-1FZ416021S92.png');
+$maNum = 8;

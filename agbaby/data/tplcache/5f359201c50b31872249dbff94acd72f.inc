@@ -1,0 +1,1 @@
+{dede:img text=

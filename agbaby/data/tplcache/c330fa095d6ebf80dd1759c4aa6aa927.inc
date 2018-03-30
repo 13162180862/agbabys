@@ -1,0 +1,1 @@
+<a href="/contact-us-here/"><img src="[field:pp/]" class="img-responsive center-block" alt="品牌故事"></a>

@@ -1,0 +1,1 @@
+<img src="[field:ditu/]" class="img-responsive center-block" alt="">

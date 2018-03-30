@@ -1,0 +1,167 @@
+<div class="footer">
+	<div class="container">
+		<div class="row footer-main">
+			<div class="hidden-xs hidden-sm">
+				<div class="col-xs-6 col-md-3 footet-left ">
+					<h3>ABOUT BABYSING</h3>
+					<ul>
+					<!-- <li><a href="about-us/">BRAND</a></li> -->
+						<li><a href="/contact-us-here/">BABYSING China</a></li>
+						<!-- <li><a href="http://www.tonggemuying.com" target="_blank">招商加盟</a></li> -->
+						<!-- <li><a href="contact.html">下载中心</a></li> -->
+					</ul>
+				</div>
+				<div class="col-xs-6 col-md-3 footet-left footet-left-mar">
+					<h3>PRODUCTS</h3>
+					<ul>
+					{dede:type typeid ='8'}
+				    <li><a href="[field:typelink/]">New products</a></li>
+				    {/dede:type}
+				    {dede:type typeid ='4'}
+				    <li><a href="[field:typelink/]">Baby sweater</a></li>
+				    {/dede:type}
+				    {dede:type typeid ='5'}
+				    <li><a href="[field:typelink/]">Baby protective clothing</a></li>
+				    {/dede:type}
+				    {dede:type typeid ='6'}
+				    <li><a href="[field:typelink/]">Baby underwear</a></li>
+				    {/dede:type}
+					</ul>
+				</div>
+				<div class="col-xs-6 col-md-3 footet-left footet-left-mar">
+					<h3>news</h3>
+					<ul>
+						 <li><a href="/latest-news/report/">REPORTS</a></li>
+                    <li><a href="/latest-news/industry/">INDUSTRY</a></li>
+                    <li><a href="/latest-news/knowledge/">TECHNIQUES</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-md-3 footet-left footet-left-mar">
+					<h3>CONTACT</h3>
+					<ul class="contact-ul" >
+						 <li><a href="javascript:;">WEIBO</a></li>
+                    <li><a href="javascript:;">WECHAT</a></li>
+                    <li><a href="javascript:;">GROUP PURCHASE</a></li>
+						<div class="footer-qr">
+							 <img src="/templets/default/image/contact-weiqr.jpg" style="display:none" alt="">
+                        <img src="/templets/default/image/contact-weqr.jpg" style="display:none" alt="">
+                        <img src="/templets/default/image/contact-moqr.jpg" style="display:none" alt="">
+						</div>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-md-3 footet-left footet-left-mar">
+					<!-- <h3>ONLINE MALL</h3> -->
+					<ul>
+						 <!-- <li><img src="/templets/default/image/shop-qr.png" alt="" style="width: 111px;"></li> -->
+                      
+					</ul>
+				</div>
+	            <div class="clearfix"> </div>
+				
+			</div>
+			<div class="hidden-md hidden-lg">
+				<div class="col-xs-12 footet-left">
+					<h3>PRODUCTS</h3>
+					<div class="row">
+						{dede:type typeid ='8'}
+						<div class="col-xs-4"><a href="[field:typelink/]">New products</a></div>
+						{/dede:type}
+						{dede:type typeid ='4'}
+						<div class="col-xs-4"><a href="[field:typelink/]">Baby sweater</a></div>
+						{/dede:type}
+						{dede:type typeid ='5'}
+						<div class="col-xs-4"><a href="[field:typelink/]">Baby protective clothing</a></div>
+						{/dede:type}
+						{dede:type typeid ='6'}
+						<div class="col-xs-4"><a href="[field:typelink/]">Baby underwear</a></div>
+						{/dede:type}
+					</div>
+                   
+					<h3>CONTACT</h3>
+					<ul class="contact-ul" >
+                        <li><a href="javascript:;">ONLINE MALL</a></li>
+						<li><a href="javascript:;">WEIBO</a></li>
+						<li><a href="javascript:;">WECHAT</a></li>
+						<!-- <li><a href="javascript:;">GROUP PURCHASE</a></li> -->
+						
+						<div class="footer-qr">
+                            <img src="/templets/default/image/shop-qr.png" style="width: 90px;" alt="">
+							<img src="/templets/default/image/contact-weiqr.jpg" style="width: 90px; display:none" alt="">
+							<img src="/templets/default/image/contact-weqr.jpg" style="width: 90px; display:none" alt="">
+							<!-- <img src="/templets/default/image/contact-moqr.jpg" style="width: 90px; display:none" alt=""> -->
+							
+						</div>
+                    
+					</ul>
+				</div>
+	            <div class="clearfix"> </div>
+
+			</div>
+
+            <div class="col-xs-12 footer-line">
+               <h3><a href="/"><img src="/templets/default/image/db-logo.png" alt=""></a></h3>
+            </div>
+            <div class="col-sm-6 footer-endphone">
+                <!-- <p>全国售后服务热线: 4000-766-880</p> -->
+            </div>
+            <div class="col-sm-6 footer-endc">
+                <!-- <p><a style="color: #bebebe;"  target="_blank" rel="nofollow" href="http://www.miitbeian.gov.cn">备案号: 沪ICP备14022305号-1</a></p> -->
+                <p>COPYRIGHT: BABYSING China © 2013-2017-ALL RIGHTS RESERVED</p>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+          $(document).ready(function(){
+            var li_length = $('.productc-top-right .c-con .list-unstyled li:gt(3)').remove();
+            
+        });
+	$('.contact-ul>li>a').hover(function(){
+			var index = $(this).parent().index();
+
+			$(this).parent().parent().find('.footer-qr img').hide();
+
+			$(this).parent().parent().find('.footer-qr img:eq('+index+')').show();
+		},function(){
+			var index = $(this).parent().index();
+			$(this).parent().parent().find('.footer-qr img:eq('+index+')').hide();
+		});
+      
+      
+            $('.category-name .icon').click(function(){
+            // alert('asdf');
+            if($(this).hasClass("fa-flip-vertical")){
+                $('.category-list').slideDown(300);                
+                $(this).removeClass('fa-flip-vertical');
+
+
+            }else{
+
+				$('.category-list').slideUp(300);
+                $(this).addClass('fa-flip-vertical');
+                
+            }
+        });
+    </script>
+<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=7834477930005129414' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7c7c50bcc3449840ece4365387fa8d64";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b4d3840a87a279d7e79e426c817069e3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>

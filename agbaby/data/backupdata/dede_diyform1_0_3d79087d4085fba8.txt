@@ -1,0 +1,15 @@
+INSERT INTO `dede_diyform1` VALUES('13','0','Kimmi cheng ','yuechenghkhk@hotmail.com','嬰兒車配件一問','你好 想請問一下有否i go 系列裡套在安全帶上的軟墊可以單買，謝謝回覆。');
+INSERT INTO `dede_diyform1` VALUES('7','0','陶园','young@nbond.cn','高档母婴清洁干巾咨询','您好，我是杭州诺邦无纺股份有限公司的陶园，我司生产各种水刺无纺布卷材和制品OEM/ODM。了解贵司致力于高品质母婴用品，希望有机会合作。时下家庭、母婴无纺布清洁产品市场火热，比湿巾更卫生、方便、环保。贵司是否有兴趣开发自主品牌的干巾制品，我司材料种类多样，有折叠、抽取、点段、切片等包装方式，感兴趣可以了解一下。电话：15545187080');
+INSERT INTO `dede_diyform1` VALUES('8','0','陈先生','541474371@qq.com ','加盟咨询','安徽合肥');
+INSERT INTO `dede_diyform1` VALUES('9','0','陈先生','541474371@qq.com ','加盟咨询','安徽合肥');
+INSERT INTO `dede_diyform1` VALUES('10','0','汤长明','byxiaoming123@163.com','加入京东Babysing','您好！我们团队目前三人，刚成立京东母婴店铺，以婴儿推车及安全座椅为主。现在为止未找到合适的品牌。有意向代理销售Babysing。请问贵公司可以授权给我司么？');
+INSERT INTO `dede_diyform1` VALUES('11','0','赖永发','2633832@qq.co m','售后电话打不通','我有一台朋友送的babysing igo可爱粉 童车，很是喜欢！可是遮阳蓬洗了两次就褪色了。。想在淘宝上买个遮阳蓬，竟然都不予理睬！因为不是从他们家买的连掏钱我都买不到。。我觉得不应该是这样的！这么好的产品，竟然售后跟不上！很让人失望！希望得到你们的回复。谢谢！');
+INSERT INTO `dede_diyform1` VALUES('12','0','王洪银','2881493711@qq.com','新媒体整合推广','您好，我是上海广点网络科技有限公司的客户经理，主要负责今日头条，UC头条，新浪新闻，腾讯新闻等新媒体推广，也是想和贵公司洽谈寻求合作 电话18221659087');
+INSERT INTO `dede_diyform1` VALUES('14','0','王小姐','kauley@126.com','推车最前面的绑带上的垫子容易掉，而且掉了是不是没有单独买的？','推车最前面的绑带上的垫子容易掉，而且掉了是不是没有单独买的？我觉得如果是这样的话设计不太合理。肩膀处的垫子就不容易掉');
+INSERT INTO `dede_diyform1` VALUES('15','0','33','1425105869@qq.com','正品查询','请问童歌餐椅怎么查询是否为正品？');
+INSERT INTO `dede_diyform1` VALUES('16','0','Jack Zhu','','','');
+INSERT INTO `dede_diyform1` VALUES('17','0','Jack Zhu','jack@wangjigroup.com','俄罗斯市场综合解决方案（007ex俄罗斯海外仓+umka俄罗斯本地电商平台)','你好，我是旺集科技jack ,在这个速卖通链接 babysing.aliexpress.com/store/1943051了解到贵司的，希望能有机会进行深入的合作。');
+INSERT INTO `dede_diyform1` VALUES('18','0','棕榈泉地产招商部：李岗','467981795@qq.com','购物中心招商','我司重庆棕榈泉国际中心MALL招商，寻求贵品牌合作');
+INSERT INTO `dede_diyform1` VALUES('19','0','孙志轩','82393750@qq.com','折叠收不起来了。','折叠可登机的那款推车，现在收不起来了。询问在哈尔滨在哪里可以修理');
+INSERT INTO `dede_diyform1` VALUES('20','0','孙志轩','82393750@qq.com','折叠收不起来了。','折叠可登机的那款推车，现在收不起来了。询问在哈尔滨在哪里可以修理');
+INSERT INTO `dede_diyform1` VALUES('21','0','孙志轩','82393750@qq.com','折叠收不起来了。','折叠可登机的那款推车，现在收不起来了。询问在哈尔滨在哪里可以修理');

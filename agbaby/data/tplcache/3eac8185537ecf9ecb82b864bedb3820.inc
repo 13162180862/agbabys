@@ -1,0 +1,1 @@
+<img src="[field:tp1/]" class="img-responsive center-block" alt="">

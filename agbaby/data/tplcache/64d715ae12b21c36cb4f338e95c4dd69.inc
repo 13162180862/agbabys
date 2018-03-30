@@ -1,0 +1,1 @@
+<span class="text">[field:lbyw/][field:lbzw/]</span>

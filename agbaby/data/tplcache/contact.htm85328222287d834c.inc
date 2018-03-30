@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("include","",2385,2420);
+$z[0][4]=array();
+$z[0][4]['filename']="head.htm";
+$z[1]=Array("arclist","\r\n			<img src=\"[field:ditu/]\" class=\"img-responsive center-block\" alt=\"\">\r\n           ",2692,2869);
+$z[1][4]=array();
+$z[1][4]['addfields']="ditu";
+$z[1][4]['channelid']="27";
+$z[1][4]['idlist']="98";
+$z[1][4]['orderby']="pubdate";
+$z[2]=Array("arclist","\r\n	<div class=\"container\">\r\n		<div class=\"text-center\">\r\n			<h2 class=\"contact-bold\">[field:yw1/]</h2>\r\n			<h3 class=\"contact-zh\">[field:zw1/]</h3>\r\n		</div>\r\n         <div class=\"province-shop\">\r\n			<h3>上海市</h3>\r\n			<h4>\r\n				<span>普陀旗舰店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n              <span>新荟城店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n           </h4>\r\n		</div>\r\n		<div class=\"province-shop\">\r\n			<h3>北京市</h3>\r\n			<h4>\r\n				<span>鼓楼大街店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n		</div>\r\n		<div class=\"province-shop\">\r\n			<h3>广东省</h3>\r\n			<h4>\r\n				<span>汇一城店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n				<span>枫叶路店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n		</div>\r\n      \r\n       <div class=\"province-shop\">\r\n			<h3>江苏省</h3>\r\n			<h4>\r\n				<p style=\"color:black;display:inline\">泰州市</p>:  <span>坡子街店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n		</div>\r\n      \r\n      <div class=\"province-shop\">\r\n			<h3>浙江省</h3>\r\n			<h4>\r\n              <p style=\"color:black;display:inline\">杭州市</p>:\r\n				<span>义蓬购物中心店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n		\r\n				<span> 邱山大街店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n				<span>银泰百货店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n        \r\n			<h4>\r\n              <p style=\"color:black;display:inline\">宁波市</p>:\r\n				<span>新江厦店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n			<h4>\r\n               <p style=\"color:black;display:inline\">温州市</p>:\r\n				<span>锦春大厦店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n              <span>星海广场店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n              <span>瑞安安阳店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n		</div>\r\n      \r\n       <div class=\"province-shop\">\r\n			<h3>广西省</h3>\r\n			<h4>\r\n				<p style=\"color:black;display:inline\">柳州市</p>:  <span>白沙路店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n		</div>\r\n      \r\n       <div class=\"province-shop\">\r\n			<h3>辽宁省</h3>\r\n          <h4>\r\n				<p style=\"color:black;display:inline\">沈阳市</p>:\r\n                  <span>汇宝国际店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n			<h4>\r\n				<p style=\"color:black;display:inline\">丹东市</p>:\r\n                  <span>万达金街店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n        \r\n		</div>\r\n      \r\n         <div class=\"province-shop\">\r\n			<h3>山东省</h3>\r\n          <h4>\r\n				<p style=\"color:black;display:inline\">临沂市</p>:\r\n                  <span>华山路店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n			<h4>\r\n				<p style=\"color:black;display:inline\">威海市</p>:\r\n                  <span>圣迪广场店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n           <h4>\r\n				<p style=\"color:black;display:inline\">潍坊市</p>:\r\n                  <span>龙都花园店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n           \r\n            <h4>\r\n				<p style=\"color:black;display:inline\">烟台市</p>:\r\n                  <span>老华联店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n        \r\n		</div>\r\n        <div class=\"province-shop\">\r\n			<h3>陕西省</h3>\r\n          <h4>\r\n				<p style=\"color:black;display:inline\">西安市</p>:\r\n                  <span>三桥新街店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n\r\n		</div>\r\n        <div class=\"province-shop\">\r\n			<h3>四川省</h3>\r\n          <h4>\r\n				<p style=\"color:black;display:inline\">成都市</p>:\r\n                  <span>凯德广场店</span><img src=\"/templets/default/image/shop-qr.png\" style=\"\" alt=\"\">  \r\n			</h4>\r\n\r\n		</div>\r\n\r\n	</div>\r\n     ",7501,12085);
+$z[2][4]=array();
+$z[2][4]['addfields']="yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3";
+$z[2][4]['channelid']="27";
+$z[2][4]['idlist']="98";
+$z[2][4]['orderby']="pubdate";
+$z[3]=Array("arclist","\r\n			<h2 class=\"contact-bold\">[field:yw2/]</h2>\r\n			<h3 class=\"contact-zh\">[field:zw2/]</h3>\r\n          ",12190,12446);
+$z[3][4]=array();
+$z[3][4]['addfields']="yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3";
+$z[3][4]['channelid']="27";
+$z[3][4]['idlist']="98";
+$z[3][4]['orderby']="pubdate";
+$z[4]=Array("arclist","\r\n					<div class=\"col-sm-6\">[field:fwrx/]: [field:tl/]</div>\r\n					<div class=\"col-sm-6\">[field:qd/]: [field:tl1/]</div>\r\n					<div class=\"col-sm-6\">[field:zs/]: [field:tl2/]</div>\r\n					<div class=\"col-sm-6\">[field:yx/]: [field:yx1/]</div>\r\n                          ",12533,12954);
+$z[4][4]=array();
+$z[4][4]['addfields']="yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3";
+$z[4][4]['channelid']="27";
+$z[4][4]['idlist']="98";
+$z[4][4]['orderby']="pubdate";
+$z[5]=Array("arclist","\r\n					<li>\r\n						<div class=\"cen-qr\">在线商城</div>\r\n						<img src=\"[field:zx/]\" alt=\"\">\r\n					</li>\r\n					<li>\r\n						<div class=\"cen-qr\"><img src=\"/templets/default/image/we-logo-qr.png\" alt=\"\"></div>\r\n						<img src=\"[field:wx1/]\" alt=\"\">\r\n					</li>\r\n\r\n					<li>\r\n						<div class=\"cen-qr\"><img src=\"/templets/default/image/mo-logo-qr.png\" alt=\"\"></div>\r\n						<img src=\"[field:by/]\" alt=\"\">\r\n					</li>\r\n					<li>\r\n						<div class=\"cen-qr\"><img src=\"/templets/default/image/wei-logo-qr.png\" alt=\"\"></div>\r\n						<img src=\"[field:wb/]\" alt=\"\">\r\n					</li>\r\n                     ",13058,13800);
+$z[5][4]=array();
+$z[5][4]['addfields']="yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3";
+$z[5][4]['channelid']="27";
+$z[5][4]['idlist']="98";
+$z[5][4]['orderby']="pubdate";
+$z[6]=Array("arclist","\r\n				<h2 class=\"contact-bold\">[field:yw3/]</h2>\r\n				<h3 class=\"contact-zh\">[field:zw3/]</h3>\r\n                    ",13987,14255);
+$z[6][4]=array();
+$z[6][4]['addfields']="yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3";
+$z[6][4]['channelid']="27";
+$z[6][4]['idlist']="98";
+$z[6][4]['orderby']="pubdate";
+$z[7]=Array("include","",14987,15024);
+$z[7][4]=array();
+$z[7][4]['filename']="footer.htm";
+
+?>

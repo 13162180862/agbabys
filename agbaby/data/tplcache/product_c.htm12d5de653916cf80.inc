@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("field","",40,63);
+$z[0][4]=array();
+$z[0][4]['name']="seotitle";
+$z[1]=Array("include","",1703,1738);
+$z[1][4]=array();
+$z[1][4]['filename']="head.htm";
+$z[2]=Array("arclist","\r\n    <img src=\"[field:banner/]\" class=\"img-responsive center-block\" alt=\"\">\r\n   ",1790,1964);
+$z[2][4]=array();
+$z[2][4]['addfields']="banner";
+$z[2][4]['channelid']="24";
+$z[2][4]['idlist']="76";
+$z[2][4]['orderby']="pubdate";
+$z[3]=Array("arclist","\r\n                <span class=\"text\">[field:lbyw/]</span><span class=\"text\">[field:lbzw/]</span>\r\n                 ",2099,2311);
+$z[3][4]=array();
+$z[3][4]['addfields']="lbyw,lbzw";
+$z[3][4]['channelid']="24";
+$z[3][4]['idlist']="76";
+$z[3][4]['orderby']="pubdate";
+$z[4]=Array("arclist","\r\n                <img class=\"left-img img-responsive center-block\" src=\"[field:lbt/]\" alt=\"\">\r\n               ",2547,2764);
+$z[4][4]=array();
+$z[4][4]['addfields']="lbt,body,logo";
+$z[4][4]['flag']="c";
+$z[4][4]['channelid']="21";
+$z[4][4]['row']="1";
+$z[4][4]['orderby']="pubdate";
+$z[5]=Array("arclist","\r\n                    <div class=\"t hidden-xs\">\r\n                        <div class=\"c-logo\">\r\n                            <img src=\"[field:logo /]\" alt=\"\"> \r\n          \r\n                        </div>\r\n                     <span class=\"pull-right\">New Arrival</span>\r\n                    </div>\r\n                    <div class=\"c-con\">\r\n                        <h3>[field:fulltitle/]</h3>\r\n                           [field:body/]\r\n\r\n                       <a href=\"[field:arcurl/]\" title=\"[field:fulltitle /]\" target=\"_blank\"><< Details</a>\r\n                    </div>\r\n                </div>\r\n                ",2888,3606);
+$z[5][4]=array();
+$z[5][4]['addfields']="lbt,body,logo";
+$z[5][4]['flag']="c";
+$z[5][4]['channelid']="21";
+$z[5][4]['row']="1";
+$z[5][4]['orderby']="pubdate";
+$z[6]=Array("list"," \r\n                <div class=\"col-xs-6 col-sm-4\">\r\n                    <div class=\"ls-con text-center\">\r\n                        <a href=\"[field:arcurl/]\" title=\"[field:fulltitle /]\" target=\"_blank\"><img src=\"[field:litpic/]\" alt=\"[field:title/]\" class=\"img-responsive center-block\"></a>\r\n                   <h4>[field:fulltitle/]</h4>\r\n                    </div>\r\n                </div>\r\n                 ",3736,4181);
+$z[6][4]=array();
+$z[6][4]['pagesize']="12";
+$z[7]=Array("pagelist","",4391,4457);
+$z[7][4]=array();
+$z[7][4]['listitem']="index,end,pre,next,pageno";
+$z[7][4]['listsize']="2";
+$z[8]=Array("include","",5107,5144);
+$z[8][4]=array();
+$z[8][4]['filename']="footer.htm";
+
+?>

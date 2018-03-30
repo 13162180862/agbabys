@@ -1,0 +1,3 @@
+
+<field:yw1 itemname="第一英文标题" autofield="1" notsend="0" type="multitext" isnull="true" islist="0" default=""  maxlength="250" page="">
+</field:yw1>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<link href="/templets/default/css/bootstrap.css" rel="stylesheet">
+<link href="/templets/default/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Furnished Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->    
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+<link href='/templets/default/fonts/babysing/stylesheet.css' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="/templets/default/js/jquery.min.js"> </script>
+       <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- js -->
+ <script src="/templets/default/js/bootstrap.js"></script>
+<!-- js -->
+<script type="text/javascript" src="/templets/default/js/move-top.js"></script>
+<script type="text/javascript" src="/templets/default/js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+        });
+      });
+</script>
+</head>
+<body>
+<!--header-->
+{dede:include filename="head.htm"/}
+
+<!--/header-->
+<div class="prols-banner"> 
+   {dede:arclist addfields='hdtp' channelid='22' idlist='77' orderby='pubdate''}
+	<img src="[field:hdtp/]" class="img-responsive center-block" alt="">
+  {/dede:arclist}
+	<div class="clearfix"> </div>
+  
+</div>
+
+<!--/header-->
+
+<div class="prols-con">
+	<div class="container">
+        <div class="con-l text-center">
+             {dede:arclist addfields='dbt,cbt' channelid='24' idlist='79' orderby='pubdate''}
+             [field:dbt/]
+            <p style="text-align: justify;}">[field:cbt/]</p>
+           {/dede:arclist}
+        </div>
+        <div class="con-line">
+            <img src="/templets/default/image/orange-line.png" class="img-responsive center-block" alt="">
+        </div>
+	</div>
+</div>
+
+<div class="prols-classify">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3 col-mar">
+            
+                <div class="img-size" img-out="" img-in="">
+                    <a href="/products/tzfs/" class="visible-xs product-m-a"></a> <!-- 手机端 a 的跳转链接 -->
+                    {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='70'}
+                    <img class="img-responsive center-block" src="[field:tp1/]" alt="">
+                    <img style="display:none;" class="img-responsive center-block" src="[field:tp2/]" alt="">
+                      {/dede:arclist}
+                    <div class="text-center img-text">
+                    {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='70' }
+                   <a href="/products/tzfs/" style="color:white; text-decoration: none;"><p class="en">[field:yw/]</p>
+                        <div class="dark">
+                            <p class="zh">[field:dymc/]</p>
+                        </div>
+                           {/dede:arclist}
+                        <div class=" light" style="">
+                            {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='70'}
+                            <p class="light-t">[field:demc/]</p>
+                            <div class="light-in hidden-xs hidden-sm">
+                               [field:js/]
+                               </a>
+                              {/dede:arclist}
+                            </div>
+                           
+                            <!-- <ul class="product-logos">
+                              {dede:arclist addfields='lb1,lb2,lb1lj,lb2lj,lb3,lb3lj' channelid='24' idlist='87' orderby='pubdate''}
+                              <li><a href="[field:lb1lj/]">[field:lb1/]</a></li>
+                              <li><a href="[field:lb2lj/]">[field:lb2/]</a></li>
+                              <li><a href="[field:lb3lj/]">[field:lb3/]</a></li>
+                               {/dede:arclist}
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 col-mar">
+                <div class="img-size" img-out="" img-in="">
+                    <a href="/products/yetc/" class="visible-xs product-m-a"></a> <!-- 手机端 a 的跳转链接 -->
+                    {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='71'}
+                    <img class="img-responsive center-block" src="[field:tp1/]" alt="">
+                    <img style="display:none;" class="img-responsive center-block" src="[field:tp2/]" alt="">
+                      {/dede:arclist}
+                    <div class="text-center img-text">
+                    {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='71' }
+                   <a href="/products/yetc/" style="color:white; text-decoration: none;">   <p class="en">[field:yw/]</p>
+                        <div class="dark">
+                            <p class="zh">[field:dymc/]</p>
+                        </div>
+                           {/dede:arclist}
+                        <div class=" light" style="">
+                            {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='71'}
+                            <p class="light-t">[field:demc/]</p>
+                            <div class="light-in hidden-xs hidden-sm">
+                               [field:js/]
+                               </a>
+                                    {/dede:arclist}
+                            </div>
+                           
+                          <!--   <ul class="product-logos">
+                              {dede:arclist addfields='lb1,lb2,lb1lj,lb2lj,lb3,lb3lj' channelid='24' idlist='76' orderby='pubdate''}
+                              <li><a href="[field:lb1lj/]">[field:lb1/]</a></li>
+                              <li><a href="[field:lb2lj/]">[field:lb2/]</a></li>               
+                               {/dede:arclist}
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 col-mar">
+                <div class="img-size" img-out="" img-in="">
+                    <a href="/products/yec/" class="visible-xs product-m-a"></a> <!-- 手机端 a 的跳转链接 -->
+
+                    {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='72'}
+                    <img class="img-responsive center-block" src="[field:tp1/]" alt="">
+                    <img style="display:none;" class="img-responsive center-block" src="[field:tp2/]" alt="">
+                      {/dede:arclist}
+                    <div class="text-center img-text">
+                    {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='72' }
+                   <a href="/products/yec/" style="color:white; text-decoration: none;">   <p class="en">[field:yw/]</p>
+                        <div class="dark">
+                            <p class="zh">[field:dymc/]</p>
+                        </div>
+                           {/dede:arclist}
+                        <div class=" light" style="">
+                            {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='72'}
+                            <p class="light-t">[field:demc/]</p>
+                            <div class="light-in hidden-xs hidden-sm">
+                               [field:js/]
+                               </a>
+                                    {/dede:arclist}
+                            </div>
+                           
+                            <!-- <ul class="product-logos">
+                              {dede:arclist addfields='lb1,lb2,lb1lj,lb2lj,lb3,lb3lj' channelid='24' idlist='84' orderby='pubdate''}
+                              <li><a href="[field:lb1lj/]">[field:lb1/]</a></li>
+                              <li><a href="[field:lb2lj/]">[field:lb2/]</a></li>               
+                               {/dede:arclist}
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 col-mar">
+                <div class="img-size" img-out="" img-in="">
+                    <a href="/products/aqzy/" class="visible-xs product-m-a"></a> <!-- 手机端 a 的跳转链接 -->
+                  {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='73'}
+                    <img class="img-responsive center-block" src="[field:tp1/]" alt="">
+                    <img style="display:none;" class="img-responsive center-block" src="[field:tp2/]" alt="">
+                      {/dede:arclist}
+                    <div class="text-center img-text">
+                    {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='73' }
+                   <a href="/products/aqzy/" style="color:white; text-decoration: none;">   <p class="en">[field:yw/]</p>
+                        <div class="dark">
+                            <p class="zh">[field:dymc/]</p>
+                        </div>
+                           {/dede:arclist}
+                        <div class=" light" style="">
+                            {dede:arclist addfields='yw,dymc,demc,js,tp1,tp2' orderby='pubdate' channelid='23' idlist='73'}
+                            <p class="light-t">[field:demc/]</p>
+                            <div class="light-in hidden-xs hidden-sm">
+                               [field:js/]
+                               </a>
+                                    {/dede:arclist}
+                            </div>
+                           
+                            <!-- <ul class="product-logos">
+                                  {dede:arclist addfields='lb1,lb2,lb1lj,lb2lj,lb3,lb3lj' channelid='24' idlist='85' orderby='pubdate''}
+                              <li><a href="[field:lb1lj/]">[field:lb1/]</a></li>
+                              <li><a href="[field:lb2lj/]">[field:lb2/]</a></li>               
+                               {/dede:arclist}
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+// $(document).ready(function(){
+//     var img_s = $('.img-size');
+//     img_s.each(function(){
+//         $(this).css('background-image', 'url("'+$(this).attr('img-out')+'")');
+//     });
+// });
+
+$('.img-size').hover(function(){
+    var dark_p = Number($('.dark p').css('font-size').substring(0,2));
+    if(dark_p > 18){
+
+        $(this).find('img:eq(1)').show();
+        $(this).find('img:eq(0)').hide();
+        $(this).find('.dark').hide();
+        $(this).find('.light').show();
+    }
+}, function(){
+    $(this).find('img:eq(1)').hide();
+    $(this).find('img:eq(0)').show();
+    $(this).find('.dark').show();
+    $(this).find('.light').hide();
+
+
+});
+
+</script>
+<p style="height: 50px;"></p>
+<!--footer-starts-->
+{dede:include filename="footer.htm"/}
+	<!--footer-starts-->
+</body>
+</html>

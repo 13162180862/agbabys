@@ -1,0 +1,4 @@
+INSERT INTO `dede_addon22` VALUES('67','15','','','101.81.53.161','WELCOME TO OUR WORLD','CREATIVE FOR BABY, SHARE HAPPINESS.','/uploads/picture/banner/banner1.jpg','Safer than Safer','CREATIVE FOR BABY, SHARE HAPPINESS.','/uploads/picture/banner/banner2.jpg','Healthy sleep','CREATIVE FOR BABY, SHARE HAPPINESS.','/uploads/picture/banner/banner3.jpg','','','','','','');
+INSERT INTO `dede_addon22` VALUES('68','15','','','101.81.53.161','','','/uploads/picture/banner/history.jpg','','','','','','','','','','','','');
+INSERT INTO `dede_addon22` VALUES('77','15','','','101.81.53.161','','','/uploads/picture/banner/products.jpg','','','','','','','','','','','','');
+INSERT INTO `dede_addon22` VALUES('78','15','','','101.81.53.161','','','/uploads/picture/banner/news.jpg','','','','','','','','','','','','');

@@ -1,0 +1,1 @@
+<img src="[field:litpic/]" alt="[field:title/]"  style="width:100%" >

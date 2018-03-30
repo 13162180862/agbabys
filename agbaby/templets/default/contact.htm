@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>contact us</title>
+
+<link href="/templets/default/css/bootstrap.css" rel="stylesheet">
+
+<link href="/templets/default/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='/templets/default/fonts/babysing/stylesheet.css' rel='stylesheet' type='text/css'>
+
+<!-- for-mobile-apps -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="keywords" content="" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!-- //for-mobile-apps -->		
+
+<!--fonts-->
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+
+<!--//fonts-->
+
+<script src="/templets/default/js/jquery.min.js"> </script>
+
+  		 <!-- Bootstrap core JavaScript
+
+================================================== -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+
+<!-- js -->
+
+ <script src="/templets/default/js/bootstrap.js"></script>
+
+<!-- js -->
+
+<script type="text/javascript" src="/templets/default/js/move-top.js"></script>
+
+<script type="text/javascript" src="/templets/default/js/easing.js"></script>
+
+
+
+<link rel="stylesheet" href="/templets/default/css/searchinfowindow_min.css" charset="utf-8" />
+
+<script type="text/javascript" src="/templets/default/js/m.js"></script>
+
+<script type="text/javascript" src="/templets/default/js/6cc9e0849c9449dea1b6f58663fb9194.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/templets/default/js/89d2619403f04a5fa780909671139d26.js"></script>
+
+<script type="text/javascript" src="/templets/default/js/searchinfowindow_min.js" charset="utf-8"></script>
+
+<!--/script-->
+
+<script type="text/javascript">
+
+			jQuery(document).ready(function($) {
+
+				$(".scroll").click(function(event){		
+
+					event.preventDefault();
+
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+
+				});
+
+			});
+
+</script>
+
+</head>
+
+<body>
+
+<!--header-->
+{dede:include filename="head.htm"/}
+<!--/header-->
+
+<div class="contact-address">
+	<div class="container">
+		<ul class="map-section">
+			<li>BABYSING
+			<li>THE GLOBAL MAP</li>
+		</ul>
+
+		<div id="allmap" style="">
+		</div>
+		<div id="global-map" style="display:none">
+           {dede:arclist addfields='ditu' channelid='27' idlist='98' orderby='pubdate'}
+			<img src="[field:ditu/]" class="img-responsive center-block" alt="">
+           {/dede:arclist}
+		</div>
+	      <script type="text/javascript">
+			// 百度地图API功能
+			var map = new BMap.Map("allmap");
+			var point = new BMap.Point(108.671615,38.506753);
+			map.centerAndZoom(point, 5.6);
+			map.enableScrollWheelZoom(true);
+
+			//万达版图
+		  map_js = [{"point":"117.4883852562,31.8876367073","name":"东方新城店","address":"安徽省安徽省，合肥市，肥东县，石塘路，东方新城12栋"},
+					{"point":"116.8526511010,40.3750023250","name":"鼓楼大街店","address":"北京市密云区金寓大厦6层"},
+					{"point":"113.7617915796,23.0143980827","name":"汇一城店","address":"广东省东莞市南城区第一国际汇一城购物中心A区三层 "},
+					{"point":"113.3737646742,23.1433371092","name":"枫叶路店","address":"广东广州市天河区枫叶路加拿大花园四号楼15J"},
+					{"point":"116.7102275478,39.5280108008","name":"廊坊广阳店","address":"河北省河北省廊坊市广阳区文明路北头路东"},
+					{"point":"113.6731806906,34.7401258111","name":"陇海路店","address":"河南省河南省郑州市管城区陇海路布厂街锦艺新时代26号楼"},
+					{"point":"119.9232288554,32.5005060114","name":"坡子街店","address":"江苏省江苏省泰州市海陵区坡子街二单元176号"},
+					{"point":"121.5926331500,38.9087514650","name":"玫瑰东方店","address":"辽宁大连沙河口区沿河街12号 华业玫瑰东方3#604"},
+					{"point":"124.3713978053,40.1171093769","name":"万达金街店","address":"辽宁省辽宁省丹东市 振兴区花园街道万达金街65-40大羽电器斜对面"},
+					{"point":"123.4026708301,41.8256272323","name":"汇宝国际店","address":"沈阳市沈阳市皇姑区华山路汇宝国际A区26#1-11-2"},
+					{"point":"118.3435184825,35.0614129174","name":"开阳路店","address":"山东省山东省临沂市兰山区新华路与开阳路南50米"},
+					{"point":"122.1565421532,37.4294027101","name":"圣迪广场店","address":"山东威海经区火车站豪业圣迪三楼"},
+					{"point":"119.8117638186,36.3850350895","name":"龙都花园店","address":"山东省山东省高密市龙都花园4号楼"},
+					{"point":"121.4049734720,37.5442185327","name":"老华联店","address":"山东省山东省烟台市芝罘区南大街261号老华联3楼"},
+					{"point":"108.8115317996,34.3074814747","name":"三桥新街店","address":"陕西省陕西省西安市未央区三桥新街新店温泉小区二区12栋六单元"},
+					{"point":"104.0506779062,30.7090931089","name":"凯德广场店","address":"四川省四川省成都市金牛区交大路183号凯德广场"},
+					{"point":"120.3324752822,30.3049929424","name":"银泰百货店","address":"浙江省浙江省杭州市下沙经济开发区海达南路397号银泰百货"},
+					{"point":"120.4954877452,30.2772659710","name":"义蓬购物中心店","address":"浙江省浙江省杭州市萧山区义蓬街道购物中心青兴路212号"},
+					{"point":"120.7627657851,30.7459372584","name":"迎宾大道店","address":"嘉兴市嘉兴市南湖区迎宾大道88号博雅酒店裙楼"},
+					{"point":"120.6675870786,27.7717855837","name":"瑞安安阳店","address":"浙江省浙江省温州市瑞安市安阳瑞嘉庭院2-2-401"},
+					{"point":"120.6755652651,27.7833529661","name":"星海广场店","address":"浙江省瑞安市星海广场2幢2602室"},
+					{"point":"120.6738271815,28.0110701744","name":"锦春大厦店","address":"温州温州鹿城区大南路锦春大厦8幢204 "},
+					{"point":"109.4195591107,24.3484423109","name":"白沙路店","address":"广西柳州市柳北区白沙路9号10栋1-7号"},
+ 					{"point":"114.1817219936,22.3196414495","name":"香港店","address":"香港旺角彌敦道610 号荷李活商業中心"},];
+			$.each( map_js, function(i, n){
+
+			   var chang="<h4 style='margin:0 0 5px 0;padding:0.2em 0'>"+n.name+"</h4>" + 
+			            "<p style='margin:0;line-height:1.5;font-size:13px;'>"+n.address+"</p>";
+
+				chang+="</div>";
+				var infoWindowmap= new BMap.InfoWindow(chang, {enableMessage: false,enableCloseOnClick:true});
+				
+				//坐标
+				coordinate=n.point.split(',');
+				point = new BMap.Point(parseFloat(coordinate[0]),parseFloat(coordinate[1]));
+				addMarker(point,infoWindowmap);
+
+
+			});
+			// 编写自定义函数,创建标注
+			function addMarker(point,infowinname){
+			  var icon = new BMap.Icon("/templets/default/image/94-512.png",new BMap.Size(70,70));
+			  marker = new BMap.Marker(point,{icon:icon});
+			  map.addOverlay(marker);
+			//   marker.addEventListener("click", function(){          
+			//    this.openInfoWindow(infowinname);
+			// });
+			}
+
+          </script>
+	</div>
+</div>
+
+
+<!-- <div class="contact-us">
+	<div class="container">
+		<div class="text-center">
+            {dede:arclist addfields='yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3' channelid='27' idlist='98' orderby='pubdate'}
+			<h2 class="contact-bold">[field:yw2/]</h2>
+			<h3 class="contact-zh">[field:zw2/]</h3>
+          {/dede:arclist}
+			<div class="contact-method text-left">
+				<div class="row">
+                   {dede:arclist addfields='yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3' channelid='27' idlist='98' orderby='pubdate'}
+					<div class="col-sm-6">[field:fwrx/]: [field:tl/]</div>
+					<div class="col-sm-6">[field:qd/]: [field:tl1/]</div>
+					<div class="col-sm-6">[field:zs/]: [field:tl2/]</div>
+					<div class="col-sm-6">[field:yx/]: [field:yx1/]</div>
+                          {/dede:arclist}
+				</div>
+			</div>
+			<div class="address-qr">
+				<ul class="list-inline">
+                    {dede:arclist addfields='yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3' channelid='27' idlist='98' orderby='pubdate'}
+					<li>
+						<div class="cen-qr">在线商城</div>
+						<img src="[field:zx/]" alt="">
+					</li>
+					<li>
+						<div class="cen-qr"><img src="/templets/default/image/we-logo-qr.png" alt=""></div>
+						<img src="[field:wx1/]" alt="">
+					</li>
+
+					<li>
+						<div class="cen-qr"><img src="/templets/default/image/mo-logo-qr.png" alt=""></div>
+						<img src="[field:by/]" alt="">
+					</li>
+					<li>
+						<div class="cen-qr"><img src="/templets/default/image/wei-logo-qr.png" alt=""></div>
+						<img src="[field:wb/]" alt="">
+					</li>
+                     {/dede:arclist}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<div class="contact-message text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+                {dede:arclist addfields='yw1,zw1,yw2,zw2,fwrx,tl,qd,tl1,zs,tl2,yx,yx1,zx,wx1,by,wb,yw3,zw3' channelid='27' idlist='98' orderby='pubdate'}
+				<h2 class="contact-bold">[field:yw3/]</h2>
+				<!-- <h3 class="contact-zh">[field:zw3/]</h3> -->
+                    {/dede:arclist}
+             <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="1" />
+<input type="hidden" name="do" value="2" />
+				<input type='text' name='mingzi' id='mingzi' class="contact-send" pla="Name" placeholder="Name">
+				<input type='email' name='youxiang' id='youxiang' class="contact-send" pla="E-mail" placeholder="E-mail">
+				<!-- <input type='text' name='zhuti' id='zhuti' class="contact-send" pla="主题" placeholder="主题"> -->
+				<input type="text" name='liuyan' id='liuyan' class="contact-send" pla="Message" placeholder="Message">
+                <input type="hidden" name="dede_fields" value="mingzi,text;youxiang,text;zhuti,text;liuyan,multitext" />
+<input type="hidden" name="dede_fieldshash" value="ae474d04f85a12a4696a22f175d0fe6b" />
+				<input type="submit" name="submit" class="button-send" value="Submit">
+                </form>
+			</div>
+			
+		</div>
+	</div>
+</div>
+<script>
+	$('.contact-send').focusin(function(){
+		$(this).attr('placeholder', '');
+	});
+	$('.contact-send').focusout(function(){
+		$(this).attr('placeholder', $(this).attr('pla'));
+	});
+</script>
+
+
+<!--footer-starts-->
+{dede:include filename="footer.htm"/}
+	<!--footer-starts-->
+	<script type="text/javascript">
+		$('#contact-ul>li>a').hover(function(){
+			var index = $(this).parent().index();
+			$('.footer-qr img:eq('+index+')').show();
+		},function(){
+			var index = $(this).parent().index();
+			$('.footer-qr img:eq('+index+')').hide();
+		});
+
+
+		$('.map-section li').click(function(){
+			var index = $(this).index();
+			if(index == 0){
+				$('#allmap').show();
+				$('#global-map').hide();
+			}
+			if(index == 1){
+				$('#allmap').hide();
+				$('#global-map').show();
+			}
+			$('.map-section li').css({"background":"white", "color":"black"});
+			$(this).css({"background":"#FE8901", "color":"white"});
+		});
+
+		$(".province-shop span").hover(function(){
+
+			$(this).next().show();
+		},function(){
+
+			$(this).next().hide();
+		});
+
+	</script>
+
+</div>
+	<!--footer-starts-->
+</body>
+</html>

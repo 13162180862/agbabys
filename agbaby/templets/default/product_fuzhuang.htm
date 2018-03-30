@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{dede:field name='title'/}</title>
+<link href="/templets/default/css/bootstrap.css" rel="stylesheet">
+<link href="/templets/default/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->    
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+<link href='/templets/default/fonts/babysing/stylesheet.css' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="/templets/default/js/jquery.min.js"> </script>
+       <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- js -->
+ <script src="/templets/default/js/bootstrap.js"></script>
+<!-- js -->
+<script type="text/javascript" src="/templets/default/js/move-top.js"></script>
+<script type="text/javascript" src="/templets/default/js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+        });
+      });
+</script>
+</head>
+<body>
+<!--header-->
+{dede:include filename="head.htm"/}
+
+<!--/header-->
+<div class="productd-banner"> 
+    <img src="{dede:field.banner/}" class="img-responsive center-block" alt="">
+    <div class="carousel-caption">
+        <h2>{dede:field.dabiaoti/}</h2>
+        <h5>{dede:field.xiaobiaoti/}</h5>
+    </div>    
+    <div class="clearfix"> </div>
+</div>
+
+<div class="productd-top">
+    <div class="container">
+        <div class="row bg">
+            <div class="col-sm-6">
+      <div class="productd-top-right visible-xs-block">
+    <div>
+	     <img src="{dede:field.logo/}" class="img-responsive" alt="">
+	     <h4>{dede:field name='title'/}</h4>
+          <div class="pro-peo">
+	    	<p><span style="display: inline-block;width:200px;">product category</span>{dede:field.lb /}</p>
+	    	<p><span style="display: inline-block;width:200px;">suitable for the croud</span>{dede:field.rq/}</p>
+	    </div>
+    </div>
+</div>
+<img class="main-img img-responsive" src="" alt="">
+<div class="productd-top-right visible-xs-block">
+    <div style="margin-top:10px;">
+        <ul class="thumbnail-d">
+		    <li>
+		        <img src="{dede:field.lbt/}" style="width:100%;height:100%" alt="">
+		    </li>
+		    <li>
+		        <img src="{dede:field.lbt2/}" style="width:100%;height:100%" alt="">
+		    </li>
+		    <li>
+		        <img src="{dede:field.lbt3/}" style="width:100%;height:100%" alt="">
+		    </li>
+		    <li>
+		        <img src="{dede:field.lbt4/}" style="width:100%;height:100%" alt="">
+		    </li>
+		    <li>
+		        <img src="{dede:field.lb5/}" style="width:100%;height:100%" alt="">
+		    </li>
+        </ul>
+	  
+        
+    </div>
+</div>
+            </div>
+            <div class="col-sm-6">
+                <div class="productd-top-right">
+                    <div class="hidden-xs">
+                       <img src="{dede:field.logo/}" class="img-responsive" alt="">
+                    <h4>{dede:field name='title'/}</h4>
+                    <ul class="thumbnail-d">
+                        <li>
+                            <img src="{dede:field.lbt/}" style="width:100%;height:100%" alt="">
+                        </li>
+                        <li>
+                            <img src="{dede:field.lbt2/}" style="width:100%;height:100%" alt="">
+                        </li>
+                        <li>
+                            <img src="{dede:field.lbt3/}" style="width:100%;height:100%" alt="">
+                        </li>
+                        <li>
+                            <img src="{dede:field.lbt4/}" style="width:100%;height:100%" alt="">
+                        </li>
+                        <li>
+                            <img src="{dede:field.lb5/}" style="width:100%;height:100%" alt="">
+                        </li>
+                    </ul>
+                    <div class="pro-peo">
+                        <p><span style="display: inline-block;width:200px;">product category</span>{dede:field.lb/}</p>
+                        <p><span style="display: inline-block;width:200px;">suitable for the croud</span>{dede:field.rq/}</p>
+                        </div>
+                        
+                    </div>
+   <div class="pro-key">
+                        <h4 class="pull-left">Color Scheme</h4>
+                        <div class="pull-right">
+                            <img src="/templets/default/image/detail-plus.png" class="plus" alt="">
+                            <img src="/templets/default/image/detail-re.png" style="display:none;" class="re" alt="">
+                        </div>
+                        <div class="clearfix"></div>
+                         <div class="pro-intro">
+                            <ul class="thumbnail-style">
+                                   {dede:field name='ys1' runphp='yes'} 
+     if(@me=='')
+      { @me = '' ;}  
+          else
+          { @me = "<li><img src='@me' style='width:100%;height:100%' alt=''></li>"; }
+     {/dede:field}
+ 
+    {dede:field name='ys2' runphp='yes'} 
+     if(@me=='')
+      { @me = '' ;}  
+          else
+          { @me = "<li><img src='@me' style='width:100%;height:100%' alt=''></li>"; }
+     {/dede:field}
+     
+     {dede:field name='ys3' runphp='yes'} 
+     if(@me=='')
+      { @me = '' ;}  
+          else
+          { @me = "<li><img src='@me' style='width:100%;height:100%' alt=''></li>"; }
+     {/dede:field}
+     
+     {dede:field name='ys4' runphp='yes'} 
+     if(@me=='')
+      { @me = '' ;}  
+          else
+          { @me = "<li><img src='@me' style='width:100%;height:100%' alt=''></li>"; }
+     {/dede:field}
+     
+     {dede:field name='ys5' runphp='yes'} 
+     if(@me=='')
+      { @me = '' ;}  
+          else
+          { @me = "<li><img src='@me' style='width:100%;height:100%' alt=''></li>"; }
+     {/dede:field}
+     
+     {dede:field name='ys6' runphp='yes'} 
+     if(@me=='')
+      { @me = '' ;}  
+          else
+          { @me = "<li><img src='@me' style='width:100%;height:100%' alt=''></li>"; }
+     {/dede:field}
+     
+     {dede:field name='ys7' runphp='yes'} 
+     if(@me=='')
+      { @me = '' ;}  
+          else
+          { @me = "<li><img src='@me' style='width:100%;height:100%' alt=''></li>"; }
+     {/dede:field}
+                            </ul>
+
+                            <!--<img src="" class="img-responsive" style="margin-top:30px;" alt="">-->
+                        </div>
+                    </div>
+                     <div class="pro-key">
+                        <h4 class="pull-left">Material</h4>
+                        <div class="pull-right">
+                            <img src="/templets/default/image/detail-plus.png" class="plus" alt="">
+                            <img src="/templets/default/image/detail-re.png" style="display:none;" class="re" alt="">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="pro-intro">
+                           {dede:field.czgy/}
+                        </div>
+                    </div>
+                    <div class="pro-key">
+                        <h4 class="pull-left">Size</h4>
+                        <div class="pull-right">
+                            <img src="/templets/default/image/detail-plus.png" class="plus" alt="">
+                            <img src="/templets/default/image/detail-re.png" style="display:none;" class="re" alt="">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="pro-intro">
+                           {dede:field.cczl/}
+                        </div>
+                    </div>
+                 
+<!--                     <div class="pro-key">
+                        <h4 class="pull-left">部件组成</h4>
+                        <div class="pull-right">
+                            <img src="/templets/default/image/detail-plus.png" class="plus" alt="">
+                            <img src="/templets/default/image/detail-re.png" style="display:none;" class="re" alt="">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="pro-intro">
+                            {dede:field.bjzc/}
+                        </div>
+                    </div> -->
+ <!--                      <div class="pro-key">
+                        <h4 class="pull-left">演示视频</h4>
+                        <div class="pull-right">
+                            <img src="/templets/default/image/detail-plus.png" class="plus" alt="">
+                            <img src="/templets/default/image/detail-re.png" style="display:none;" class="re" alt="">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="pro-intro">
+                          <video id="video-f" style="" width="100%" height="100%" controls>
+                              <source src="{dede:field.yssp/}" type="video/ogg">
+                              <source src="{dede:field.yssp/}" type="video/mp4">
+                              <source src="{dede:field.yssp/}" type="video/webm">
+                              <object data="{dede:field.yssp/}" width="100%" height="100%">
+                                <embed width="100%" height="100%" src="{dede:field.yssp/}">
+                              </object>
+                            </video>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="goods-intro">
+                    <h3>PRODUCT FEATURES</h3>
+                    <img src="/templets/default/image/goods-intro-line.png" alt="">
+                         <!-- 第一屏 -->
+                    
+                           {dede:field.body/}
+                   
+                    <!-- 第二屏 -->
+                  
+                       {dede:field.dierping/}
+
+                    <!-- 圆点 -->
+                  <!--ul class="list-unstyled list-inline text-center">
+                        <div></div>
+                        <div></div>
+                    </ul-->
+                </div>
+            </div>
+            <div class="col-sm-6">
+            
+                <div><img src="{dede:field.cz/}" class="img-responsive" alt=""></div>
+            
+            </div>
+        </div>
+        <div class="row center-img">
+     
+            <img src="{dede:field.nr/}" width="100%" class="img-responsive center-block" alt="">
+         
+
+        </div>
+        <div class="row text-center recommend">
+            <div class="col-sm-12">
+                 <h4><span class="baby-font">PRODUCTS</span></h4>
+            </div>
+
+            {dede:likearticle row='4' titlelen='100' eregtype='keyword'} 
+            <div class="col-xs-6 col-sm-3">
+                <div class="ls-con">
+                    <a href="[field:arcurl/]" title="[field:fulltitle /]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" class="img-responsive center-block" alt=""></a>
+                    <a href="[field:arcurl/]" target="_blank"><h4>[field:fulltitle/]</h4></a>
+                </div>
+            </div>
+           
+            {/dede:likearticle}
+        </div>
+    </div>
+</div>
+<!-- <div class="product-news">
+    <div class="container">
+        <div class="row productd-ul">
+            <div class="col-sm-6 text-right">
+                <ul class="list-unstyled">
+                    <h3 class="baby-font">INFORMATION</h3>
+                    <h3>相关资讯</h3>
+                    <img src="/templets/default/image/productd-line.jpg" class="hidden-xs" alt="">
+                </ul>
+            </div>
+            <div class="col-sm-6 text-news">
+                <ul class="list-unstyled">
+                {dede:arclist row=4 typeid='11,12,13' orderby=pubdate keyword='婴童服饰' } 
+                    <li><a href="[field:arcurl/]"  target="_blank">[field:fulltitle/]</a></li>      
+                      {/dede:arclist}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<script>
+    $(document).ready(function(){
+        $('.main-img').attr('src', $('.thumbnail-d li:eq(0)').find('img').attr('src'));
+        $('.thumbnail-d li:eq(0)').css('border-color', '#E37D23');
+
+        $('.thumbnail-style').next().attr('src', $('.thumbnail-style li:eq(0)').find('img').attr('src'));
+        $('.thumbnail-style li:eq(0)').css('border-color', '#E37D23');
+
+
+
+    });
+
+    $('.thumbnail-d li').hover(function(){
+        $('.thumbnail-d li').css('border-color', '#AAAAAA');
+        $(this).css('border-color', '#E37D23');
+        $('.main-img').attr('src', $(this).find('img').attr('src'));
+    });
+
+    $('.thumbnail-style li').hover(function(){
+        $('.thumbnail-style li').css('border-color', '#AAAAAA');
+        $(this).css('border-color', '#E37D23');
+        //$('.thumbnail-style').next().attr('src', $(this).find('img').attr('src'));
+        $('.main-img').attr('src', $(this).find('img').attr('src'));
+      
+    });
+
+    $('.plus').click(function(){
+        $(this).hide();
+        $(this).next().show();
+        $(this).parent().next().next().slideDown(300);
+    });
+
+    $('.re').click(function(){
+        $(this).hide();
+        $(this).prev().show();
+        $(this).parent().next().next().slideUp(300);
+    });
+
+      // 多条分屏
+    $(document).ready(function(){
+
+        if($('.goods-intro ul:eq(1) li').length == 0){
+            $('.goods-intro ul:eq(2)').hide();
+        }
+    });
+
+    $('.goods-intro ul.text-center div').hover(function(){
+        $('.goods-intro ul.text-center div').css("background-color","#AEAEAF");
+        $(this).css("background-color","#636366");
+        var cir = $(this).index();
+        if(cir == 0){
+            $('.goods-intro ul:eq(0)').show();
+            $('.goods-intro ul:eq(1)').hide();
+        }
+        if(cir == 1){
+            $('.goods-intro ul:eq(0)').hide();
+            $('.goods-intro ul:eq(1)').show();
+        }
+
+    });
+
+
+</script>
+
+<!--footer-starts-->
+{dede:include filename="footer.htm"/}
+
+</body>
+</html>

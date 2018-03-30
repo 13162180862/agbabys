@@ -1,0 +1,1 @@
+<li><a href="[field:arcurl/]" title="[field:fulltitle /]" target="_blank"> [field:pubdate function="GetDateMK(@me)"/] [field:fulltitle function=' ( strlen("@me")>48?cn_substr("@me",48)."…" : "@me" )'/] </a></li>

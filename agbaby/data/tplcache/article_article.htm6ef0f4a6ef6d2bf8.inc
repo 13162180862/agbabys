@@ -1,0 +1,41 @@
+<?php
+$z[0]=Array("field","",40,59);
+$z[0][4]=array();
+$z[0][4]['name']="title";
+$z[1]=Array("field","",432,458);
+$z[1][4]=array();
+$z[1][4]['name']="description";
+$z[2]=Array("field","",495,517);
+$z[2][4]=array();
+$z[2][4]['name']="keywords";
+$z[3]=Array("include","",2275,2310);
+$z[3][4]=array();
+$z[3][4]['filename']="head.htm";
+$z[4]=Array("type","\r\n                        <a href=\"[field:typelink /]\"><h4 class=\"news-program\">BLOG</h4></a>\r\n                        ",2725,2867);
+$z[4][4]=array();
+$z[5]=Array("field","",3034,3053);
+$z[5][4]=array();
+$z[5][4]['name']="title";
+$z[6]=Array("field","",3160,3180);
+$z[6][4]=array();
+$z[6][4]['name']="writer";
+$z[7]=Array("field","",3234,3299);
+$z[7][4]=array();
+$z[7][4]['name']="pubdate";
+$z[7][4]['function']="strftime(\"%b %d/ %Y\",@me)";
+$z[8]=Array("field","",3826,3844);
+$z[8][4]=array();
+$z[8][4]['name']="body";
+$z[9]=Array("likearticle"," \r\n                                            <li>\r\n                                                <div class=\"post-widget-image\">\r\n                                                   <a href=\"[field:arcurl/]\"  target=\"_blank\">\r\n                                                    <img width=\"50\" height=\"50\" src=\"[field:litpic/]\" alt=\"[field:title/]\" class=\"attachment-blog-widget size-blog-widget wp-post-image\" sizes=\"(max-width: 50px) 100vw, 50px\">\r\n                                                    </a>\r\n                                                </div>\r\n                                                <div class=\"post-widget-text\">\r\n                                                   <a href=\"[field:arcurl/]\"  target=\"_blank\">[field:fulltitle/]</a>\r\n                                                    <span>[field:pubdate function=\"GetDateMK(@me)\"/]</span>\r\n                                                </div>\r\n                                                <div class=\"clear\"></div>\r\n                                            </li>\r\n                                           ",5725,6870);
+$z[9][4]=array();
+$z[9][4]['row']="5";
+$z[10]=Array("arclist"," \r\n    <img src=\"[field:litpic/]\" alt=\"[field:title/]\" style=\"height: auto; width:100%; bottom: 0px; left: 0px; opacity: 1; transform: matrix(1.005, 0, 0, 1.005, 0, 0);\">\r\n    <div class=\"col span_12 dark left\">\r\n        <div class=\"inner\" style=\"\">\r\n        <span><i>Next</i></span>\r\n      <a href=\"[field:arcurl/]\"  target=\"_blank\"><h3>[field:fulltitle/]</h3></a>\r\n        </div>\r\n    </div>\r\n    <span class=\"full-link\">\r\n        <a href=\"[field:arcurl/]\"  target=\"_blank\">[field:fulltitle/]</a> \r\n    </span>\r\n    <span class=\"bg-overlay\"></span>\r\n    ",7389,8010);
+$z[10][4]=array();
+$z[10][4]['row']="1";
+$z[10][4]['titlelen']="200";
+$z[10][4]['orderby']="rand";
+$z[11]=Array("include","",8042,8079);
+$z[11][4]=array();
+$z[11][4]['filename']="footer.htm";
+
+?>

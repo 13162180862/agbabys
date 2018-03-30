@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{dede:field.seotitle /}</title>
+<link href="/templets/default/css/bootstrap.css" rel="stylesheet">
+<link href="/templets/default/css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href='/templets/default/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Furnished Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<!-- //for-mobile-apps -->    
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+<link href='/templets/default/fonts/babysing/stylesheet.css' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="/templets/default/js/jquery.min.js"> </script>
+       <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- js -->
+ <script src="/templets/default/js/bootstrap.js"></script>
+<!-- js -->
+<script type="text/javascript" src="/templets/default/js/move-top.js"></script>
+<script type="text/javascript" src="/templets/default/js/easing.js"></script>
+<!--/script-->
+</head>
+<body>
+<!--header-->
+{dede:include filename="head.htm"/}
+
+<!--/header-->
+<div class="productc-banner"> 
+    {dede:arclist addfields='banner' channelid='24' idlist='85' orderby='pubdate'}
+    <img src="[field:banner/]" class="img-responsive center-block" alt="">
+   {/dede:arclist}
+    <div class="banner-bottom">
+        <div class="category-name text-center">
+            <a href="javascript:;">
+                {dede:arclist addfields='lbyw,lbzw' channelid='24' idlist='85' orderby='pubdate}
+                 <span class="text">[field:lbyw/]</span><span class="text">[field:lbzw/]</span>
+                 {/dede:arclist}
+            </a> 
+            <!-- <span class="icon fa fa-angle-up"></span> -->
+        </div>
+<!--         <div class="text-center category-list" style="">
+        {dede:arclist addfields='lb1,lb2,lb1lj,lb2lj,lb3,lb4,lb4lj,lb3lj' channelid='24' idlist='85' orderby='pubdate'}
+            <a href="[field:lb1lj/]">[field:lb1/]</a>
+            <span style="color:white;font-size:18px">|</span>
+            <a href="[field:lb2lj/]">[field:lb2/]</a>
+          {/dede:arclist}
+        </div> -->
+    </div>
+
+    <div class="clearfix"> </div>
+</div>
+<div class="productc-top">
+    <div class="container">
+        <div class="row bg">
+            <div class="col-sm-6">
+<!--                 <div class="productc-top-right visible-xs-block">
+                    <div class="t">
+                        <div class="c-logo">
+                        {dede:arclist addfields='lbt,body,logo'  channelid='21' row='1' orderby='pubdate'}
+                           <img src="[field:logo /]" alt=""> 
+                             {/dede:arclist}                           
+                        </div>
+                        <span class="pull-right">新品推荐 New Arrival</span>
+                    </div>
+                </div> -->
+               {dede:arclist addfields='lbt,body,logo'  channelid='21' row='1' orderby='pubdate'}
+                <img class="left-img img-responsive center-block" src="[field:lbt/]" alt="">
+               {/dede:arclist}
+            </div>
+            <div class="col-sm-6">
+                <div class="productc-top-right">
+              {dede:arclist addfields='lbt,body,logo'  channelid='21' row='1' orderby='pubdate'}
+                    <div class="t hidden-xs">
+                        <div class="c-logo">
+                            <img src="[field:logo /]" alt=""> 
+                            <!-- <span>(2017)</span> -->
+                            
+                        </div>
+                     <span class="pull-right">New Arrival</span>
+                    </div>
+                    <div class="c-con">
+                        <h3>[field:fulltitle/]</h3>
+                           [field:body/]
+
+                       <a href="[field:arcurl/]" title="[field:fulltitle /]" target="_blank"><< Details</a>
+                    </div>
+                </div>
+                {/dede:arclist}
+            </div>
+        </div>
+        <div class="productc-list">
+            <div class="row" id="jg">
+                  
+                {dede:list  pagesize='12'} 
+                <div class="col-xs-6 col-sm-4">
+                    <div class="ls-con text-center">
+                        <a href="[field:arcurl/]" title="[field:fulltitle /]" target="_blank"><img src="[field:litpic/]" alt="[field:title/]" class="img-responsive center-block"></a>
+                   <h4>[field:fulltitle/]</h4>
+                    </div>
+                </div>
+                 {/dede:list}
+            </div>
+
+             <div class="fy" style="margin-bottom: 30px;margin-top: 40px;text-align: center;">
+                     <div style="display: inline-block;">
+                     {dede:pagelist listitem="index,end,pre,next,pageno" listsize="2"/}
+                     </div>
+                 </div>
+
+                 <style>
+
+
+                     .fy li{
+                list-style: none;
+                float: left !important;
+                }
+              
+
+                .fy a{
+                /*text-align: center;*/
+                margin-left: 15px;
+                /*display: block;*/
+                /*width: 50px;*/
+                /*line-height: 30px;*/
+                /*border: 1px solid #ddd;*/
+                font-size: 14px;
+                color: #000;
+
+                }
+
+                 </style>
+
+
+
+ 
+    </div>
+</div>
+
+
+<!--footer-starts-->
+{dede:include filename="footer.htm"/}
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{dede:field.title/}</title>
+<link href="/templets/default/css/bootstrap.css" rel="stylesheet">
+<link href="/templets/default/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="{dede:field.description /}" />
+<meta name="keywords" content="{dede:field.keywords/}" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->    
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+<link href='/templets/default/fonts/babysing/stylesheet.css' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="/templets/default/js/jquery.min.js"> </script>
+       <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- js -->
+ <script src="/templets/default/js/bootstrap.js"></script>
+<!-- js -->
+<script type="text/javascript" src="/templets/default/js/move-top.js"></script>
+<script type="text/javascript" src="/templets/default/js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+        });
+      });
+  
+      $(function(){
+                var nrW = $('.news-left .content').width();
+                $('.news-left .content img').each(function(){
+                if($(this).width() > nrW)
+                    $(this).css('max-width','100%');
+                    $(this).css('height','auto');
+                })
+            });
+</script>
+
+<style>
+   
+</style>
+</head>
+<body>
+<!--header-->
+{dede:include filename="head.htm"/}
+
+<!--/header-->
+<div class="news-banner"> 
+	<!--<img src="/image/img-index-center.jpg" class="img-responsive center-block" width="100%" alt="">-->
+	<div class="clearfix"> </div>
+</div>
+
+
+<div class="news-list">
+	<div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div >
+                    <div class="nav-top text-center">
+                        {dede:type}
+                        <a href="[field:typelink /]"><h4 class="news-program">BLOG</h4></a>
+                        {/dede:type}
+                    </div>
+                    <div class="row">
+                        <div class="article-header text-center">
+                            <h1>{dede:field.title/}</h1>
+                            <div class="auth-info">
+                                <span>Source：{dede:field.writer/}</span>
+                                <span>Time：{dede:field name='pubdate' function='strftime("%b %d/ %Y",@me)'/}</span>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <div class="news-left">
+                                
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="content">
+                                             {dede:field.body/}
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-sm-3 hidden-xs hidden-sm">
+                            <div class="news-right-img">
+                                <div id="sidebar" class="col span_3 col_last">
+                                    <div id="search-3" class="widget widget_search" style="display:none;">
+                                        <form role="search" method="get" class="search-form" action="http://www.babysing.cn/">
+                                            <div class="minimal-form-input no-text">
+                                                <label for="id-0">
+                                                    <span class="text">
+                                                        <!-- <span class="text-inner">输入关键词...</span> -->
+                                                    </span>
+                                                </label>
+                                                <input type="text" class="search-field" value="" placeholder="输入关键词..." name="s" title="查找：">
+                                            </div>
+                                            <input type="submit" class="search-submit" value="查找">
+                                        </form>
+                                    </div>
+                                    <div id="recent-posts-extra-2" class="widget recent_posts_extra_widget">
+                                        <h4>Recent Article</h4>
+                                        <ul>
+                                           {dede:likearticle row=5 } 
+                                            <li>
+                                                <div class="post-widget-image">
+                                                   <a href="[field:arcurl/]"  target="_blank">
+                                                    <img width="50" height="50" src="[field:litpic/]" alt="[field:title/]" class="attachment-blog-widget size-blog-widget wp-post-image" sizes="(max-width: 50px) 100vw, 50px">
+                                                    </a>
+                                                </div>
+                                                <div class="post-widget-text">
+                                                   <a href="[field:arcurl/]"  target="_blank">[field:fulltitle/]</a>
+                                                    <span>[field:pubdate function="GetDateMK(@me)"/]</span>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </li>
+                                           {/dede:likearticle}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+	</div>
+</div>
+<div data-post-header-style="default_minimal" class="blog_next_prev_buttons wpb_row vc_row-fluid full-width-content standard_section" data-midnight="light" style="visibility: visible;">
+  {dede:arclist row=1 titlelen='200' orderby='rand'} 
+    <img src="[field:litpic/]" alt="[field:title/]" style="height: auto; width:100%; bottom: 0px; left: 0px; opacity: 1; transform: matrix(1.005, 0, 0, 1.005, 0, 0);">
+    <div class="col span_12 dark left">
+        <div class="inner" style="">
+        <span><i>Next</i></span>
+      <a href="[field:arcurl/]"  target="_blank"><h3>[field:fulltitle/]</h3></a>
+        </div>
+    </div>
+    <span class="full-link">
+        <a href="[field:arcurl/]"  target="_blank">[field:fulltitle/]</a> 
+    </span>
+    <span class="bg-overlay"></span>
+    {/dede:arclist}
+</div>
+<!--footer-starts-->
+{dede:include filename="footer.htm"/}
+    <!--footer-starts-->
+</body>
+</html>

@@ -1,0 +1,12 @@
+INSERT INTO `dede_addonarticle17` VALUES('4','2','Goron家族为客户精心挑选的车、床、服装配饰等成为18-19世纪巴黎名流们的潮流风尚。 为所有婴孩创造最舒适的拍摄环境，因而总能抓拍到宝宝最开心的瞬间，被称为&ldquo;一家能让孩子快乐的照相馆&rdquo;。<br />\r\n','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('5','2','为了提供更好的拍摄体验，Goron家族开始邀请法国最知名的设计师和工匠，为前来拍摄的家庭特别定制高端婴儿车、床、服饰等用品。','','','114.88.80.102');
+INSERT INTO `dede_addonarticle17` VALUES('6','2','Goron家族生产的孕婴童用品已经扩展到婴儿服饰、床品及婴儿车、床等，并以新颖的款式、优质的选材和考究的做工受到极大好评。<br />\r\n<img alt=\"\" src=\"/uploads/allimg/170504/1-1F504111J4Z5.jpg\" style=\"width: 187px; height: 199px;\" /><img alt=\"\" src=\"/uploads/allimg/170504/1-1F504111K1100.jpg\" style=\"width: 177px; height: 217px;\" />','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('7','2','Babysing&rdquo;意指：宝宝在快乐的唱歌。 Christophe先生认为每个孩子都是幸福的天使，无论出身富贵还是普通，每个孩子都应该有快乐的权利，而孩子的歌声传递的是就是内心的快乐和家庭的幸福，因而为品牌取名&ldquo;Babysing&rdquo;。','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('8','2','Babysing以一流的品质、时尚的外观和超高的性价比迅速占领法国母婴用品市场。','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('9','2','Babysing在美国、加拿大、英国、德国、俄罗斯等20多个国家建立销售通路。<br />\r\n<img alt=\"\" src=\"/uploads/allimg/170504/1-1F504113154445.jpg\" style=\"width: 333px; height: 171px;\" />','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('10','2','<img alt=\"\" src=\"/uploads/allimg/170504/1-1F504113504100.png\" style=\"width: 336px; height: 76px;\" />','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('11','2','在中国市场打造孕婴童用品和服务连锁品牌&mdash;&mdash;Babysing童歌。<br />\r\n<img alt=\"\" src=\"/uploads/allimg/170504/1-1F504113535948.jpg\" style=\"width: 202px; height: 135px;\" />','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('12','2','','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('1','2','Goron家族为客户精心挑选的车、床、服装配饰等成为18-19世纪巴黎名流们的潮流风尚。 为所有婴孩创造最舒适的拍摄环境，因而总能抓拍到宝宝最开心的瞬间，被称为&ldquo;一家能让孩子快乐的照相馆&rdquo;。','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('2','2','为了提供更好的拍摄体验，Goron家族开始邀请法国最知名的设计师和工匠，为前来拍摄的家庭特别定制高端婴儿车、床、服饰等用品。','','','114.88.90.22');
+INSERT INTO `dede_addonarticle17` VALUES('3','2','Goron家族生产的孕婴童用品已经扩展到婴儿服饰、床品及婴儿车、床等，并以新颖的款式、优质的选材和考究的做工受到极大好评。<br />\r\n<img alt=\"\" src=\"/uploads/allimg/170504/1-1F504144204911.jpg\" style=\"width: 187px; height: 199px;\" /><img alt=\"\" src=\"/uploads/allimg/170504/1-1F50414421AV.jpg\" style=\"width: 177px; height: 217px;\" />','','','114.88.90.22');

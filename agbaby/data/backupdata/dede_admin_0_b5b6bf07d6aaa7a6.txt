@@ -1,0 +1,2 @@
+INSERT INTO `dede_admin` VALUES('1','10','babysing','a49bd41b850ad1b3d120','babysing','','','10,3,2,15,14','1503367842','180.172.245.175');
+INSERT INTO `dede_admin` VALUES('2','10','babysing-admin','7256a12145d085f2af70','admin','','','','1501290162','114.88.85.210');

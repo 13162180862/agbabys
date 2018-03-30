@@ -1,0 +1,1 @@
+<h4 style="position: absolute;text-align: center;width: 44%;left: 28.5%;font-size: 15px;top: 63%;line-heighe:1.5;" class="hidden-xs">[field:body/]</h4>

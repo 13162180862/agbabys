@@ -1,0 +1,1 @@
+<div class="col-xs-4"><a href="[field:typelink/]">Baby protective clothing</a></div>

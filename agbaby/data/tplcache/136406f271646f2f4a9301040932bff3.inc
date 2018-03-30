@@ -1,0 +1,1 @@
+<img class="" src="[field:lbt/]" alt="">

@@ -1,0 +1,1 @@
+<img src="[field:hdtp2/]" class="img-responsive center-block" alt="">

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>{dede:field.seotitle /}</title>
+
+<link href="/templets/default/css/bootstrap.css" rel="stylesheet">
+
+<link href="/templets/default/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- for-mobile-apps -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="keywords" content="" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<!-- //for-mobile-apps -->		
+
+<!--fonts-->
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+
+<!--//fonts-->
+
+<script src="/templets/default/js/jquery.min.js"> </script>
+
+  		 <!-- Bootstrap core JavaScript
+
+================================================== -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+
+<!-- js -->
+
+ <script src="/templets/default/js/bootstrap.js"></script>
+
+<!-- js -->
+
+<script type="text/javascript" src="/templets/default/js/move-top.js"></script>
+
+<script type="text/javascript" src="/templets/default/js/easing.js"></script>
+
+<!--/script-->
+
+<script type="text/javascript">
+
+			jQuery(document).ready(function($) {
+
+				$(".scroll").click(function(event){		
+
+					event.preventDefault();
+
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+
+				});
+
+			});
+
+</script>
+
+</head>
+
+<body>
+
+<!--header-->
+
+{dede:include filename="head.htm"/}
+
+
+
+<!--/header-->
+
+<!-- <div class="about-banner"> 
+
+	<img src="/templets/default/image/img-index-center.jpg" class="img-responsive center-block" alt="">
+
+	<div class="clearfix"> </div>
+
+</div> -->
+
+
+
+
+
+<div class="news-list">
+
+	<div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <div >
+
+                    <h4 class="news-program">BLOG</h4>
+
+                    <div class="row">
+
+                        <div class="col-sm-9">
+
+                            <div class="news-left">
+
+                           {dede:arclist typeid='' orderby=click  titlelen=100 row=1}
+
+                                <div class="row article-first">
+
+                                    <div class="col-sm-6" style="position: relative;">
+
+                                     <h3>[field:pubdate function='strftime("%b %d/ %Y",@me)'/]<div class="f-bt-collect">
+                                     <!-- <a href="javascript:window.external.addfavorite('{dede:global.cfg_basehost/}{dede:field.id
+
+runphp='yes'}$id=@me;@me='';$url=GetOneArchive($id);@me=$url['arcurl'];{/dede:field.id}','{dede:field.title/}')">收藏</a> -->
+                                    </div></h3>
+
+                                        <p class="article-tit"><a href="[field:arcurl/]" target="_blank">[field:title/]</a></p>
+
+                                        <p class="article-con">[field:description/]</p>
+
+                                       <a href="[field:arcurl/]" style="position: absolute; left: 44%; top: 132%;"><img src="/templets/default/image/eyes.png" style="position: absolute;display:none;left: 40%;top: 232%;" class="eyes-img" alt=""></a>
+
+                                    </div>    
+
+                                    <div class="col-sm-6 first-newspic hidden-xs hidden-sm">
+
+                                    <a href="[field:arcurl/]" target="_blank"><img src='[field:litpic function=firstimg('@me')/] ' style="width:100%;" alt="[field:title/]"></a> 
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+
+                                    <div class="article-line"></div>
+
+                                </div>
+
+                                    {/dede:arclist}
+
+                                <script>
+
+                                    $('.article-first').hover(function(){
+
+                                        $('.eyes-img').show();
+
+                                    },function(){
+
+                                        $('.eyes-img').hide();
+
+                                    });
+
+                                </script>
+   {dede:list pagesize='10'}
+                                <div class="row article-rl">
+
+                                    <div class="col-sm-12">
+
+                                        <div class="ar-date hidden-xs hidden-sm">
+
+                                            <h3>[field:pubdate function='strftime("%d",@me)'/]</h3>
+
+                                            <h4>[field:pubdate function='strftime("%b",@me)'/]</h4>
+
+                                            <h4>[field:pubdate function='strftime("%Y",@me)'/]</h4>
+
+                                        </div>
+
+                                        <div class="ar-con">
+
+                                            <h4><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h4>
+
+                                            <p class="p-title">
+                                            <span>promulgator: Babysing</span>
+                                            <!-- <span>view count:[field:click/]</span> -->
+                                            </p>
+
+                                            <p class="p-content">[field:description/]</p>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="article-bottom">
+
+                                        <div class="pull-right">
+
+                                            <span class="bt-date">[field:pubdate function='strftime("%Y %m %d ",@me)'/] </span>
+
+                                            <div class="bt-collect">
+          <!--                                   <a href="javascript:window.external.addfavorite('{dede:global.cfg_basehost/}{dede:field.id
+
+runphp='yes'}$id=@me;@me='';$url=GetOneArchive($id);@me=$url['arcurl'];{/dede:field.id}','{dede:field.title/}')">收藏</a> -->
+</div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+
+                                    <div class="article-line"></div>
+
+                                </div>
+
+                                   {/dede:list}
+
+                                <div class="row article-rl">
+
+                                    <div class="col-sm-12">                     
+
+
+                <div class="fy" style="">
+                     <div style="display: inline-block;">
+                     {dede:pagelist listitem="index,end,pre,next,pageno" listsize="2"/}
+                     </div>
+                 </div>
+
+                 <style>
+
+
+                     .fy li{
+                list-style: none;
+                float: left !important;
+                }
+              
+
+                .fy a{
+                /*text-align: center;*/
+                margin-left: 15px;
+                /*display: block;*/
+                /*width: 50px;*/
+                /*line-height: 30px;*/
+                /*border: 1px solid #ddd;*/
+                font-size: 14px;
+                color: #000;
+
+                }
+
+                 </style>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+
+                                    <div class="article-line"></div>
+
+                                </div>
+
+                                
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-3 hidden-xs hidden-sm">
+
+                            <div class="news-right-img">
+
+                             {dede:arclist addfields='1t,d2,d3' orderby='pubdate' channelid='25' idlist='89'}
+                              [field:1t/]
+                              [field:d2/]
+                              [field:d3/]
+                             {/dede:arclist}
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+	</div>
+
+</div>
+
+
+
+<!--footer-starts-->
+
+{dede:include filename="footer.htm"/}
+
+	<!--footer-starts-->
+
+</body>
+
+</html>
+

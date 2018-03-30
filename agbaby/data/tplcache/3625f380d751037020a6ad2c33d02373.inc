@@ -1,0 +1,1 @@
+<a href="/about-us/"><img src="[field:zw/]" class="img-responsive center-block" alt="品牌故事"></a>
